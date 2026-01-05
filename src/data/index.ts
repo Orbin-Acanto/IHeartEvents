@@ -26,9 +26,9 @@ export const serviceItems = [
         description:
           "Set on 145 acres along Long Island's renowned Gold Coast, Artistry offers a refined event experience within the historic Frick Estate at the Nassau County Museum of Art. Surrounded by curated art exhibitions, formal English gardens, and striking outdoor sculptures, this venue provides a sophisticated and inspiring backdrop for corporate receptions, fundraisers, and exclusive gatherings.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/Artistry/1.jpeg",
+          "/service-photo/Artistry/2.jpeg",
+          "/service-photo/Artistry/3.jpg",
         ],
         buttonText: "Learn More",
         buttonLink: "https://www.eventsatartistry.com/",
@@ -38,7 +38,7 @@ export const serviceItems = [
   {
     logo: "/logo/logo_5.svg",
     maintext:
-      "With 30 years of expertise in the event and creative design industry, MMEworld delivers industry leading services including audio visual production, staging and lighting, event rentals, themed props, and floral design services.<br/><br/>For a limited time, when you book any package over $20,000, MMEworld is pleased to include ten complimentary 5×5 floral centerpieces. Our gift to you because love is in the air, and every great event deserves a beautiful finishing touch.<br/><br/>Let us help you create an atmosphere that is unforgettable.",
+      "With 30 years of expertise in the event and creative design industry, MME Worldwide delivers industry leading services including audio visual production, staging and lighting, event rentals, themed props, and floral design services.<br/><br/>For a limited time, when you book any package over $20,000, MMEworld is pleased to include ten complimentary 5×5 floral centerpieces. Our gift to you because love is in the air, and every great event deserves a beautiful finishing touch.<br/><br/>Let us help you create an atmosphere that is unforgettable.",
     ctaText:
       "January 5 through March 1, MME World is proud to support iHeart events.",
     ctaButtonText: "Interested?",
@@ -47,11 +47,11 @@ export const serviceItems = [
       {
         logo_text: "Event Rentals",
         description:
-          "MMEworld provides an extensive collection of event rentals and themed props designed to transform corporate venues into immersive environments. From refined furniture and décor to specialty accents and scenic elements, our inventory supports branded, cinematic, and fully customized experiences. Backed by expert planning and execution, we ensure every detail aligns seamlessly with your vision.",
+          "MME Worldwide provides an extensive collection of event rentals and themed props designed to transform corporate venues into immersive environments. From refined furniture and décor to specialty accents and scenic elements, our inventory supports branded, cinematic, and fully customized experiences. Backed by expert planning and execution, we ensure every detail aligns seamlessly with your vision.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/MME Event Rentals/1.jpeg",
+          "/service-photo/MME Event Rentals/2.jpeg",
+          "/service-photo/MME Event Rentals/3.jpeg",
         ],
         buttonText: "Learn More",
         buttonLink: "https://www.eventdecorrentals.com/",
@@ -59,11 +59,11 @@ export const serviceItems = [
       {
         logo_text: "Floral Design",
         description:
-          "MMEworld's floral design services bring elegance, color, and creativity to every corporate event. From striking centerpieces to bespoke arrangements, our team combines artistry with meticulous attention to detail. Whether enhancing a room with subtle accents or creating bold statement pieces, we deliver immersive floral experiences that leave a lasting impression on your guests.",
+          "MME Worldwide's floral design services bring elegance, color, and creativity to every corporate event. From striking centerpieces to bespoke arrangements, our team combines artistry with meticulous attention to detail. Whether enhancing a room with subtle accents or creating bold statement pieces, we deliver immersive floral experiences that leave a lasting impression on your guests.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/MME Floral Design/1.jpeg",
+          "/service-photo/MME Floral Design/2.jpeg",
+          "/service-photo/MME Floral Design/3.jpeg",
         ],
         buttonText: "Learn More",
         buttonLink:
@@ -72,7 +72,7 @@ export const serviceItems = [
       {
         logo_text: "Audio & Visuals",
         description:
-          "MMEworld delivers comprehensive audio visual solutions that elevate every corporate event. From state of the art sound systems and dynamic lighting to LED walls and projection mapping, our technical team creates immersive experiences that captivate audiences. We handle everything from intimate presentations to large scale productions with precision and expertise.",
+          "MME Worldwide delivers comprehensive audio visual solutions that elevate every corporate event. From state of the art sound systems and dynamic lighting to LED walls and projection mapping, our technical team creates immersive experiences that captivate audiences. We handle everything from intimate presentations to large scale productions with precision and expertise.",
         images: [
           "/service-photo/48 Wall/1.png",
           "/service-photo/48 Wall/2.jpg",

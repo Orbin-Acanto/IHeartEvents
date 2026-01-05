@@ -17,7 +17,6 @@ export const VenueCard: React.FC<VenueCardProps> = ({ item, isImageLeft }) => {
 
   const normalizedIndex = currentImageIndex % item.images.length;
 
-  // Auto-rotate images
   useEffect(() => {
     if (item.images.length <= 1) return;
 
@@ -28,7 +27,6 @@ export const VenueCard: React.FC<VenueCardProps> = ({ item, isImageLeft }) => {
     return () => clearInterval(interval);
   }, [item.images.length]);
 
-  // Preload next image
   useEffect(() => {
     const nextIndex = (normalizedIndex + 1) % item.images.length;
     if (!loadedImages.has(nextIndex)) {
