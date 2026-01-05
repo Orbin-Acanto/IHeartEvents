@@ -5,7 +5,7 @@ const ParallaxSection: React.FC = () => {
     <section
       className="
         relative 
-        h-[40vh]
+        h-[50vh]
         overflow-hidden
         parallax-bg
         mt-28
@@ -19,18 +19,13 @@ const ParallaxSection: React.FC = () => {
         playsInline
         preload="auto"
       >
-        <source
-          src="/freepik__movimento-de-camera-sobre-o-distrito-financeiro-de__3076.mp4"
-          type="video/mp4"
-        />
+        <source src="/videos/video.mp4" type="video/mp4" />
       </video>
-
-      <div className="absolute inset-0 bg-black/30"></div>
 
       <div className="relative z-10 h-full flex items-center justify-center">
         <h2 className="text-white text-4xl text-center md:text-6xl font-light tracking-wide drop-shadow-xl uppercase font-primary">
-          'tis the season for unforgettable
-          <br /> New Year celebrations
+          'Tis the season to celebrate love
+          <br /> through unforgettable events
         </h2>
       </div>
     </section>

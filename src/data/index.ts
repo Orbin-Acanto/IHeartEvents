@@ -1,83 +1,171 @@
 export const serviceItems = [
   {
-    title: "48 Wall Street",
-    description:
-      "Make history this New Year by hosting your event at New York City’s premier downtown venue. 48 Wall Street occupies three floors of the former Bank of New York & Trust Company Building. This extraordinary space sets the stage for a truly unforgettable evening, featuring preserved architectural details that reflect the grandeur of the Gilded Age. Give your guests an experience defined by luxury, prestige, and timeless elegance as you welcome the year ahead.",
-    images: ["/service photo/48 Wall/2.jpg", "/service photo/48 Wall/3.jpg"],
-    subTitle2: "Planning a New Year's Celebration?",
-    subDescription:
-      "Ring in the New Year at one of the most iconic buildings on one of the most iconic blocks in Manhattan’s Financial District. For those seeking a distinctive and historic setting, 48 Wall Street offers the perfect backdrop for an elevated and unforgettable New Year’s Eve celebration.",
-    buttonText: "Visit 48 Wall Street",
-    buttonLink: "https://www.48wallnyc.com/holiday-events.html",
-    pillLabel: "Venue",
-  },
-  {
-    title: "Artistry",
-    description:
-      "Nestled on 145 acres in the heart of Long Island's Gold Coast, Artistry offers an unparalleled setting within the elegant Georgian-style Frick Estate at the Nassau County Museum of Art. This extraordinary venue invites guests to mingle amongst world-class art exhibitions, wander through formal English gardens and outdoor sculpture collections, and experience the timeless grandeur of a storied mansion. Whether hosting a fairy-tale wedding, milestone celebration, or corporate gathering, Artistry delivers an artful experience defined by breathtaking architecture, natural beauty, and museum-caliber elegance.",
-    images: [
-      "/service photo/Artistry/1.jpg",
-      "/service photo/Artistry/2.jpg",
-      "/service photo/Artistry/3.jpg",
-      "/service photo/Artistry/4.jpg",
-    ],
-    subDescription:
-      "From the glass-walled Tented Pavilion with panoramic views to the enchanting Formal Gardens and the historic Frick Estate Library, Artistry provides multiple stunning spaces to bring your vision to life. Every season reinvents the atmosphere across rolling lawns, meadows, and ponds—creating a spectacular celebration of nature itself.",
-    buttonText: "Visit Artistry",
-    buttonLink: "https://www.eventsatartistry.com/index.html",
-    pillLabel: "Venue",
-  },
-  {
-    title: "Grazing With Grace",
-    description:
-      "Treat your guests to the ultimate in savory indulgence with a Grazing With Grace station. This upgrade offers a bountiful selection of fine cheeses, cured meats, seasonal fruits, and artisan breads. A professional attendant is on hand to assist guests in crafting the perfect custom charcuterie board. Grazing with Grace is a seamless blend of abundance and personal attention that is sure to be a highlight of the evening.",
-    images: [
-      "/service photo/Grazing with Grace/1.jpg",
-      "/service photo/Grazing with Grace/2.jpg",
-      "/service photo/Grazing with Grace/3.jpg",
-    ],
-    buttonText: "Learn more",
-    buttonLink: "https://www.grazingwithgrace.co/",
-    pillLabel: "Culinary Experience",
-  },
-  {
-    title: "New Year Event Enhancements",
-    description:
-      "Transform your New Year’s celebration into a fully immersive experience with our curated suite of event enhancements. Capture unforgettable moments with interactive photo opportunities designed to mark the start of a new year in style. Add a touch of iconic New York flair with our Vintage NYC Newspaper Stand, a versatile focal point perfect for late-night bites or custom-branded newspapers highlighting your company or countdown moment. Elevate the evening with our elegant Champagne Trolley, offering guests a celebratory toast at midnight. These interactive additions ensure that from the first photo to the final countdown, your New Year’s event is truly unforgettable.",
-    images: [
-      "/service photo/Hot Cocoa Cart/1.jpg",
-      "/service photo/Hot Cocoa Cart/2.jpg",
-      "/service photo/Hot Cocoa Cart/3.jpg",
-    ],
-    buttonText: "Learn more",
+    logo: "/logo/logo.png",
+    maintext:
+      "With 15 years of experience in the hospitality industry, FIDI Hospitality is proud to open the doors to our historic venue locations and places we are honored to call home.<br/><br/>We believe that love begins at home, and your celebration should feel just as meaningful. To toast to you and the love you share, FIDI Hospitality is pleased to offer a complimentary Champagne Wall when you host your event at any of our venue locations.<br/><br/>Celebrate in a setting rich with history, romance, and timeless charm.",
+    ctaText:
+      "January 5 through March 1, Fidi Hospitality is proud to support iHeart events.",
+    ctaButtonText: "Interested?",
     buttonLink: "https://www.fidihospitality.com/#!/contactus",
-    pillLabel: "Event Enhancement",
+    section: [
+      {
+        logo: "/logo/logo_1.svg",
+        description:
+          "Host your next corporate event in one of Downtown Manhattan's most iconic landmarks. Located in the historic former Bank of New York & Trust Company Building, 48 Wall Street spans three distinctive floors featuring soaring ceilings and preserved architectural details. This prestigious venue blends timeless elegance with modern functionality, creating an impressive setting for high profile gatherings, galas, and celebrations.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink: "https://www.48wallnyc.com/",
+      },
+      {
+        logo: "/logo/logo_2.png",
+        logoHeight: "h-16 sm:h-18 lg:h-20",
+        description:
+          "Set on 145 acres along Long Island's renowned Gold Coast, Artistry offers a refined event experience within the historic Frick Estate at the Nassau County Museum of Art. Surrounded by curated art exhibitions, formal English gardens, and striking outdoor sculptures, this venue provides a sophisticated and inspiring backdrop for corporate receptions, fundraisers, and exclusive gatherings.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink: "https://www.eventsatartistry.com/",
+      },
+    ],
   },
   {
-    title: "New Year Props and Decor",
-    description:
-      "Welcome the New Year with elevated decor and full-service prop rentals designed to transform any space into a celebratory environment. Whether you’re enhancing an event or refreshing your office for a New Year kickoff, our team creates striking scenic displays that capture the excitement of a fresh start. We specialize in immersive setups featuring elegant metallic accents, ambient lighting, and modern winter-inspired scenery, accented with statement props perfect for photo moments and countdown celebrations. Let us handle the design and installation, delivering a polished atmosphere that energizes guests and teams alike.",
-    images: [
-      "/service photo/Holiday Decor/1.jpg",
-      "/service photo/Holiday Decor/2.jpg",
-      "/service photo/Holiday Decor/3.png",
+    logo: "/logo/logo_5.svg",
+    maintext:
+      "With 30 years of expertise in the event and creative design industry, MMEworld delivers industry leading services including audio visual production, staging and lighting, event rentals, themed props, and floral design services.<br/><br/>For a limited time, when you book any package over $20,000, MMEworld is pleased to include ten complimentary 5×5 floral centerpieces. Our gift to you because love is in the air, and every great event deserves a beautiful finishing touch.<br/><br/>Let us help you create an atmosphere that is unforgettable.",
+    ctaText:
+      "January 5 through March 1, MME World is proud to support iHeart events.",
+    ctaButtonText: "Interested?",
+    buttonLink: "https://www.mmeink.com/contact-us.html",
+    section: [
+      {
+        logo_text: "Event Rentals",
+        description:
+          "MMEworld provides an extensive collection of event rentals and themed props designed to transform corporate venues into immersive environments. From refined furniture and décor to specialty accents and scenic elements, our inventory supports branded, cinematic, and fully customized experiences. Backed by expert planning and execution, we ensure every detail aligns seamlessly with your vision.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink: "https://www.eventdecorrentals.com/",
+      },
+      {
+        logo_text: "Floral Design",
+        description:
+          "MMEworld's floral design services bring elegance, color, and creativity to every corporate event. From striking centerpieces to bespoke arrangements, our team combines artistry with meticulous attention to detail. Whether enhancing a room with subtle accents or creating bold statement pieces, we deliver immersive floral experiences that leave a lasting impression on your guests.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink:
+          "https://www.mmeink.com/meetings-and-events/floral-design.html",
+      },
+      {
+        logo_text: "Audio & Visuals",
+        description:
+          "MMEworld delivers comprehensive audio visual solutions that elevate every corporate event. From state of the art sound systems and dynamic lighting to LED walls and projection mapping, our technical team creates immersive experiences that captivate audiences. We handle everything from intimate presentations to large scale productions with precision and expertise.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink:
+          "https://www.mmeink.com/meetings-and-events/av-staging.html",
+      },
     ],
-    buttonText: "Learn more",
-    buttonLink: "https://www.eventproprentals.com/holiday/christmas",
-    pillLabel: "Event Enhancement",
-    id: "enhancements",
   },
   {
-    title: "New Year Celebrations",
-    description:
-      "Ring in the New Year with an unforgettable celebration designed by our full-service production team. We provide everything you need to set the perfect party atmosphere, from sleek lounge furniture rentals and custom dance floors to immersive lighting and exquisite floral arrangements. Whether you are hosting an intimate gathering or a massive gala, let us handle every detail to ensure your start to the new year is nothing short of spectacular.",
-    images: [
-      "/service photo/New Year Celebrations/1.jpg",
-      "/service photo/New Year Celebrations/2.jpg",
-      "/service photo/New Year Celebrations/3.jpg",
+    logo: "/logo/logo_4.png",
+    maintext:
+      "With 15 years of expertise in food and beverage, Tardi's Catering has proudly delivered elite culinary experiences for both corporate and private events. From breakfasts and business lunches to conferences, seated dinners, cocktail receptions, and in office catering, we bring exceptional quality to every occasion.<br/><br/>For a limited time, when you book any catering package over $15,000, Tardi's Catering is pleased to offer a complimentary hot cocoa cart plus one additional food cart. Our way of adding warmth, flavor, and an unforgettable touch to your event.",
+    ctaText:
+      "January 5 through March 1, Tardi's Catering is proud to support iHeart events.",
+    ctaButtonText: "Interested?",
+    buttonLink: "https://www.tardiscatering.com/contacts/",
+    section: [
+      {
+        logo_text: "Food & Beverage Solutions",
+        description:
+          "Tardi's Catering delivers elevated food and beverage solutions designed to complement corporate events of every scale. From executive breakfasts and business lunches to conferences, cocktail receptions, and seated dinners, our culinary team combines thoughtful menus with seamless service. Each experience is crafted to reflect your brand and leave a lasting impression through exceptional presentation.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink: "https://www.tardiscatering.com/menu/",
+      },
     ],
-    buttonText: "Learn more",
-    buttonLink: "https://www.fidihospitality.com/#!/contactus",
-    pillLabel: "Event Services",
+  },
+  {
+    logo: "/logo/logo_6.svg",
+    logoHeight: "h-8 sm:h-10 lg:h-14",
+    maintext:
+      "With 30 years in the entertainment industry, Mikey Mike Entertainment has delivered unforgettable experiences for corporate and private events worldwide.<br/><br/>For a limited time, when you book any entertainment package over $5,000, you will receive a complimentary LVM by phone and a custom photo script book on us.<br/><br/>This exclusive offer allows you to capture, relive, and share your memories for a lifetime.",
+    ctaText:
+      "January 5 through March 1, Mikey Mike Entertainment is proud to support iHeart events.",
+    ctaButtonText: "Interested?",
+    buttonLink: "https://www.mikeymikeevents.com/contact",
+    section: [
+      {
+        logo_text: "Musical & Live Entertainment",
+        description:
+          "MMEink delivers fully customized musical and live entertainment programs designed to engage and inspire corporate audiences. From professional DJs and live musicians to celebrity talent, speakers, and specialty performers, each experience is tailored to your event objectives. With access to interactive entertainment, novelty acts, and top tier performers, we provide creative resources to elevate every moment.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink: "https://www.mikeymikeevents.com/music-entertainment",
+      },
+    ],
+  },
+  {
+    logo: "/logo/logo_3.svg",
+    logoHeight: "h-12 sm:h-14 lg:h-16",
+    maintext:
+      "With over 30 years of experience in the event industry, we are passionate about sharing our creative expertise. When you sign on with any of our creative fabrication services, you will receive two complimentary 2D layout designs. Our way of saying thank you for partnering with us.",
+    ctaText:
+      "January 5 through March 1, Creative Partners is proud to support iHeart events.",
+    ctaButtonText: "Interested?",
+    buttonLink: "https://www.mmeinksouth.com/",
+    section: [
+      {
+        logo_text: "South Florida Services",
+        description:
+          "Creative Partners extends its full service creative fabrication and design expertise to South Florida, supporting corporate events with the same precision and innovation trusted nationwide. From custom staging and scenic elements to branded installations and layout design, our team delivers cohesive, high impact solutions tailored to your event goals with seamless execution from concept through completion.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink: "https://www.mmeinksouth.com/contact-us.html",
+      },
+      {
+        logo_text: "Custom Fabrication",
+        description:
+          "Our in house custom fabrication team specializes in creating tailored staging, furniture, scenic installations, and branded environments. From concept through execution, we design and build solutions that align with each client's objectives, scale, and aesthetic. Serving both in office and off site corporate events, our fabrication capabilities ensure every detail is purpose built and flawlessly executed.",
+        images: [
+          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/2.jpg",
+          "/service-photo/48 Wall/3.jpg",
+        ],
+        buttonText: "Learn More",
+        buttonLink:
+          "https://www.mmeinksouth.com/meetings-and-events/custom-fabrication.html",
+      },
+    ],
   },
 ];

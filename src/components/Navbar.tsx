@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
               className="flex items-center"
             >
               <img
-                src="/logo/logo.png"
+                src="/logo/main_logo.gif"
                 alt="48 Wall Street"
-                className="h-20 w-auto"
+                className="h-26 w-auto"
               />
             </a>
           </div>
