@@ -74,9 +74,9 @@ export const serviceItems = [
         description:
           "MME Worldwide delivers comprehensive audio visual solutions that elevate every corporate event. From state of the art sound systems and dynamic lighting to LED walls and projection mapping, our technical team creates immersive experiences that captivate audiences. We handle everything from intimate presentations to large scale productions with precision and expertise.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/MME Audio VIsual/1.jpg",
+          "/service-photo/MME Audio VIsual/2.jpg",
+          "/service-photo/MME Audio VIsual/3.jpg",
         ],
         buttonText: "Learn More",
         buttonLink:
@@ -98,9 +98,9 @@ export const serviceItems = [
         description:
           "Tardi's Catering delivers elevated food and beverage solutions designed to complement corporate events of every scale. From executive breakfasts and business lunches to conferences, cocktail receptions, and seated dinners, our culinary team combines thoughtful menus with seamless service. Each experience is crafted to reflect your brand and leave a lasting impression through exceptional presentation.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/Tardis Food and Beverage/1.jpeg",
+          "/service-photo/Tardis Food and Beverage/2.jpg",
+          "/service-photo/Tardis Food and Beverage/3.jpeg",
         ],
         buttonText: "Learn More",
         buttonLink: "https://www.tardiscatering.com/menu/",
@@ -122,9 +122,9 @@ export const serviceItems = [
         description:
           "MMEink delivers fully customized musical and live entertainment programs designed to engage and inspire corporate audiences. From professional DJs and live musicians to celebrity talent, speakers, and specialty performers, each experience is tailored to your event objectives. With access to interactive entertainment, novelty acts, and top tier performers, we provide creative resources to elevate every moment.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/Mikey Mike Musical and Live Entertainment/1.JPG",
+          "/service-photo/Mikey Mike Musical and Live Entertainment/2.jpg",
+          "/service-photo/Mikey Mike Musical and Live Entertainment/3.jpeg",
         ],
         buttonText: "Learn More",
         buttonLink: "https://www.mikeymikeevents.com/music-entertainment",
@@ -146,9 +146,9 @@ export const serviceItems = [
         description:
           "Creative Partners extends its full service creative fabrication and design expertise to South Florida, supporting corporate events with the same precision and innovation trusted nationwide. From custom staging and scenic elements to branded installations and layout design, our team delivers cohesive, high impact solutions tailored to your event goals with seamless execution from concept through completion.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/Creative Partners South Florida Services/1.jpeg",
+          "/service-photo/Creative Partners South Florida Services/2.jpeg",
+          "/service-photo/Creative Partners South Florida Services/3.jpg",
         ],
         buttonText: "Learn More",
         buttonLink: "https://www.mmeinksouth.com/contact-us.html",
@@ -158,9 +158,9 @@ export const serviceItems = [
         description:
           "Our in house custom fabrication team specializes in creating tailored staging, furniture, scenic installations, and branded environments. From concept through execution, we design and build solutions that align with each client's objectives, scale, and aesthetic. Serving both in office and off site corporate events, our fabrication capabilities ensure every detail is purpose built and flawlessly executed.",
         images: [
-          "/service-photo/48 Wall/1.png",
-          "/service-photo/48 Wall/2.jpg",
-          "/service-photo/48 Wall/3.jpg",
+          "/service-photo/Creative Partners Custom Fabrication/1.jpg",
+          "/service-photo/Creative Partners Custom Fabrication/2.jpg",
+          "/service-photo/Creative Partners Custom Fabrication/3.jpg",
         ],
         buttonText: "Learn More",
         buttonLink:
