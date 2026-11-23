@@ -1,5 +1,6 @@
 export interface SectionItem {
   logo?: string;
+  name?: string;
   logo_text?: string;
   logoHeight?: string;
   description: string;
@@ -11,6 +12,7 @@ export interface SectionItem {
 
 export interface ServiceData {
   logo?: string;
+  name?: string;
   logo_text?: string;
   logoHeight?: string;
   maintext: string;

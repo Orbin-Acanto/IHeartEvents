@@ -11,8 +11,11 @@ const Navbar: React.FC = () => {
               className="flex items-center"
             >
               <img
-                src="/logo/main_logo.gif"
-                alt="48 Wall Street"
+                src="/logo/main_logo.webp"
+                alt="I Heart Events"
+                width={520}
+                height={210}
+                fetchPriority="high"
                 className="h-26 w-auto"
               />
             </a>

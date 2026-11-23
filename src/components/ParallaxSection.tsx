@@ -17,16 +17,17 @@ const ParallaxSection: React.FC = () => {
         loop
         muted
         playsInline
-        preload="auto"
+        preload="metadata"
+        poster="/videos/poster.jpg"
       >
         <source src="/videos/video.mp4" type="video/mp4" />
       </video>
 
       <div className="relative z-10 h-full flex items-center justify-center">
-        <h2 className="text-white text-4xl text-center md:text-6xl font-light tracking-wide drop-shadow-xl uppercase font-primary">
+        <h1 className="text-white text-4xl text-center md:text-6xl font-light tracking-wide drop-shadow-xl uppercase font-primary">
           'Tis the season to celebrate love
           <br /> through unforgettable events
-        </h2>
+        </h1>
       </div>
     </section>
   );

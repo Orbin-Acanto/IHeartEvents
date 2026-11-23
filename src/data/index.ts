@@ -1,6 +1,7 @@
 export const serviceItems = [
   {
     logo: "/logo/logo.png",
+    name: "FiDi Hospitality",
     maintext:
       "With 15 years of experience in the hospitality industry, FIDI Hospitality is proud to open the doors to our historic venue locations and places we are honored to call home.<br/><br/>We believe that love begins at home, and your celebration should feel just as meaningful. To toast to you and the love you share, FIDI Hospitality is pleased to offer a complimentary Champagne Wall when you host your event at any of our venue locations.<br/><br/>Celebrate in a setting rich with history, romance, and timeless charm.",
     ctaText:
@@ -10,10 +11,11 @@ export const serviceItems = [
     section: [
       {
         logo: "/logo/logo_1.svg",
+        name: "48 Wall Street",
         description:
           "Host your next corporate event in one of Downtown Manhattan's most iconic landmarks. Located in the historic former Bank of New York & Trust Company Building, 48 Wall Street spans three distinctive floors featuring soaring ceilings and preserved architectural details. This prestigious venue blends timeless elegance with modern functionality, creating an impressive setting for high profile gatherings, galas, and celebrations.",
         images: [
-          "/service-photo/48 Wall/1.png",
+          "/service-photo/48 Wall/1.webp",
           "/service-photo/48 Wall/2.jpg",
           "/service-photo/48 Wall/3.jpg",
         ],
@@ -22,6 +24,7 @@ export const serviceItems = [
       },
       {
         logo: "/logo/logo_2.png",
+        name: "Artistry",
         logoHeight: "h-16 sm:h-18 lg:h-20",
         description:
           "Set on 145 acres along Long Island's renowned Gold Coast, Artistry offers a refined event experience within the historic Frick Estate at the Nassau County Museum of Art. Surrounded by curated art exhibitions, formal English gardens, and striking outdoor sculptures, this venue provides a sophisticated and inspiring backdrop for corporate receptions, fundraisers, and exclusive gatherings.",
@@ -37,6 +40,7 @@ export const serviceItems = [
   },
   {
     logo: "/logo/logo_5.svg",
+    name: "MME Worldwide",
     maintext:
       "With 30 years of expertise in the event and creative design industry, MME Worldwide delivers industry leading services including audio visual production, staging and lighting, event rentals, themed props, and floral design services.<br/><br/>For a limited time, when you book any package over $20,000, MMEworld is pleased to include ten complimentary 5×5 floral centerpieces. Our gift to you because love is in the air, and every great event deserves a beautiful finishing touch.<br/><br/>Let us help you create an atmosphere that is unforgettable.",
     ctaText:
@@ -86,6 +90,7 @@ export const serviceItems = [
   },
   {
     logo: "/logo/logo_4.png",
+    name: "Tardi's Catering",
     maintext:
       "With 15 years of expertise in food and beverage, Tardi's Catering has proudly delivered elite culinary experiences for both corporate and private events. From breakfasts and business lunches to conferences, seated dinners, cocktail receptions, and in office catering, we bring exceptional quality to every occasion.<br/><br/>For a limited time, when you book any catering package over $15,000, Tardi's Catering is pleased to offer a complimentary hot cocoa cart plus one additional food cart. Our way of adding warmth, flavor, and an unforgettable touch to your event.",
     ctaText:
@@ -109,6 +114,7 @@ export const serviceItems = [
   },
   {
     logo: "/logo/logo_6.svg",
+    name: "Mikey Mike Entertainment",
     logoHeight: "h-8 sm:h-10 lg:h-14",
     maintext:
       "With 30 years in the entertainment industry, Mikey Mike Entertainment has delivered unforgettable experiences for corporate and private events worldwide.<br/><br/>For a limited time, when you book any entertainment package over $5,000, you will receive a complimentary LVM by phone and a custom photo script book on us.<br/><br/>This exclusive offer allows you to capture, relive, and share your memories for a lifetime.",
@@ -133,6 +139,7 @@ export const serviceItems = [
   },
   {
     logo: "/logo/logo_3.svg",
+    name: "Creative Partners",
     logoHeight: "h-12 sm:h-14 lg:h-16",
     maintext:
       "With over 30 years of experience in the event industry, we are passionate about sharing our creative expertise. When you sign on with any of our creative fabrication services, you will receive two complimentary 2D layout designs. Our way of saying thank you for partnering with us.",

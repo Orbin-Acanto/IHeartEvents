@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 import type { SectionItem } from "./types";
 
 interface VenueCardProps {
@@ -14,29 +14,32 @@ const DEFAULT_SECTION_LOGO_HEIGHT = "h-12 sm:h-14 lg:h-16";
 export const VenueCard: React.FC<VenueCardProps> = ({ item, isImageLeft }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [loadedImages, setLoadedImages] = useState<Set<number>>(new Set([0]));
+  const cardRef = useRef<HTMLDivElement>(null);
+  // Only cycle and preload photos while the card is near the viewport
+  const inView = useInView(cardRef, { margin: "300px" });
 
   const normalizedIndex = currentImageIndex % item.images.length;
 
   useEffect(() => {
-    if (item.images.length <= 1) return;
+    if (!inView || item.images.length <= 1) return;
 
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % item.images.length);
     }, 4000);
 
     return () => clearInterval(interval);
-  }, [item.images.length]);
+  }, [inView, item.images.length]);
 
   useEffect(() => {
     const nextIndex = (normalizedIndex + 1) % item.images.length;
-    if (!loadedImages.has(nextIndex)) {
+    if (inView && !loadedImages.has(nextIndex)) {
       const img = new Image();
       img.src = item.images[nextIndex];
       img.onload = () => {
         setLoadedImages((prev) => new Set([...prev, nextIndex]));
       };
     }
-  }, [normalizedIndex, item.images, loadedImages]);
+  }, [inView, normalizedIndex, item.images, loadedImages]);
 
   const goToImage = (idx: number) => {
     setCurrentImageIndex(idx);
@@ -50,7 +53,9 @@ export const VenueCard: React.FC<VenueCardProps> = ({ item, isImageLeft }) => {
         {item.logo ? (
           <img
             src={item.logo}
-            alt="Venue logo"
+            alt={item.name ?? ""}
+            loading="lazy"
+            decoding="async"
             className={`w-auto object-contain ${logoHeight}`}
           />
         ) : (
@@ -83,7 +88,9 @@ export const VenueCard: React.FC<VenueCardProps> = ({ item, isImageLeft }) => {
             key={normalizedIndex}
             src={item.images[normalizedIndex]}
             className="absolute inset-0 h-full w-full object-cover"
-            alt={`Venue - Image ${normalizedIndex + 1}`}
+            alt={`${item.logo_text ?? item.name} photo ${normalizedIndex + 1}`}
+            loading="lazy"
+            decoding="async"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -115,7 +122,7 @@ export const VenueCard: React.FC<VenueCardProps> = ({ item, isImageLeft }) => {
   );
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2">
+    <div ref={cardRef} className="grid grid-cols-1 lg:grid-cols-2">
       {isImageLeft ? (
         <>
           <div className="order-1 lg:order-2">{contentSection}</div>

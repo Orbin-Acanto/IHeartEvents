@@ -20,7 +20,9 @@ export const ServiceBlock: React.FC<ServiceBlockProps> = ({ data }) => {
           {data.logo ? (
             <img
               src={data.logo}
-              alt="Company logo"
+              alt={data.name ?? ""}
+              loading="lazy"
+              decoding="async"
               className={`w-auto object-contain ${logoHeight}`}
             />
           ) : (
